@@ -6,11 +6,11 @@
 // The solution to the 1st problem
 
 function  kilometerToMeter(kilometer) {
- 
-    var meter=kilometer * 1000;
+    var meter = 0;
+        meter =kilometer * 1000;
         return meter;
     }
-    var meter= kilometerToMeter(2 );
+    var meter= kilometerToMeter(4 );
     console.log(meter);
    
   
